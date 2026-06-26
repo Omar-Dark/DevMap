@@ -9,7 +9,7 @@ const teamMembers = [
     name: "Ahmed  Waleed",
     role: "UI/UX Designer",
     bio: "Responsible for user research, interface design, prototyping, and creating the overall user experience.",
-    image: "./pics/Ahmed.jpg",
+    image: "https://media.discordapp.net/attachments/1482428442409566291/1519646845389897738/Screenshot_2025-12-16_221907.png?ex=6a3ef9a9&is=6a3da829&hm=d058b7d45436b409d838d44bec4faea727b02a30c5e39d43918a2022ba0cfdfe&=&format=webp&quality=lossless",
   },
   {
     name: "Youssef Zidan",
