@@ -27,7 +27,7 @@ const teamMembers = [
     name: "Omar Mosad",
     role: "Frontend Developer",
     bio: "Responsible for building the user interface, turning design wireframes into responsive code, and ensuring a seamless interactive web experience.",
-    image: "blob:https://www.messenger.com/704202d9-0e9e-459b-ace4-76b9eb882241",
+    image: "https://media.discordapp.net/attachments/1519995124170362923/1519995159389929612/Omar.jpg?ex=6a3f954e&is=6a3e43ce&hm=06c8ffc16514b2c0caffc8ea1bb7508f4e4eebcf6b328ddf0027a7e7363023bb&=&format=webp&width=885&height=885",
   },
   {
     name: "Abraam Michal",
@@ -128,9 +128,9 @@ const Page = () => {
 
             <div className="flex items-center gap-6 mt-6 pt-6 border-t border-border">
               {[
-                { value: "2021", label: "Founded in Austin, TX", color: "text-primary" },
-                { value: "500k+", label: "Active Learners", color: "text-foreground" },
-                { value: "42", label: "Expert Roadmaps", color: "text-green-500" },
+                { value: "2026", label: "PortSaid", color: "text-primary" },
+                { value: "+10", label: "Active Learners", color: "text-foreground" },
+                { value: "20+", label: "Expert Roadmaps", color: "text-green-500" },
               ].map((s, i) => (
                 <div key={s.label} className={i > 0 ? "pl-6 border-l border-border" : ""}>
                   <p className={`text-2xl font-bold ${s.color}`}>{s.value}</p>
